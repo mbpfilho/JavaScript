@@ -1,4 +1,9 @@
+aula 4
+
+typeof v dá o tipo da variável v
+
 aula 6
+
 window.prompt retorna string
 Number.parseInt() ou parseInt() converte para inteiro
 Number.parseFloat() converte para real
@@ -21,6 +26,8 @@ n.toFixed(c).replace(".",",") determina quantas casas decimais e troca . por ,
 
 n.toLocaleString("pt-BR",{style:"currency",currency:"BRL"}) escreve o número no formato de reais
 
+aula 7
+
 operadores aritméticos - binários
 + 5+2=7
 - 5-2=3
@@ -41,3 +48,35 @@ incremento:
 x=x+1 x+=1 x++ ++x
 x=x-1 x-=1 x-- --x
 
+aula 8
+
+operadores relacionais: resultado boleano true ou false
+>
+<
+>=
+<=
+==
+!=
+
+operadore de identidade ou de igualdade restrita === mesmo valor e tipo
+5==5 true
+5=="5" true
+5==="5" false
+5===5 true
+
+desigualdade restrita
+5!="5" false
+5!=="5" true
+
+operadores lógicos
+! negacäo
+&& e - conjuncäo
+|| ou - disjuncäo
+
+ordem de precedência dos operadores lógicos: näo -> e -> ou
+
+ordem de precedencia dos operadores
+aritméticos -> relacionais -> logicos
+
+operador ternário
+teste?verdadeiro:falso
