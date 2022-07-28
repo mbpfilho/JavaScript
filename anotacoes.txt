@@ -20,3 +20,24 @@ n.toFixed(c) escreve o número n com c casas decimais
 n.toFixed(c).replace(".",",") determina quantas casas decimais e troca . por ,
 
 n.toLocaleString("pt-BR",{style:"currency",currency:"BRL"}) escreve o número no formato de reais
+
+operadores aritméticos - binários
++ 5+2=7
+- 5-2=3
+* 5*2=10
+/ 5/2=2.5
+% resto da divisäo 5%2=1
+** 5**2=25
+
+auto-atribuicäo:
+n=n+4 n+=4
+n=n-4 n-=4 
+n=n*4 n*=4
+n=n/4 n/=4
+n=n**4 n**=2
+n=n%4 n%=4
+
+incremento:
+x=x+1 x+=1 x++ ++x
+x=x-1 x-=1 x-- --x
+
