@@ -1,0 +1,18 @@
+body, input[type=text], input[type=number]{
+    background-color: black;
+    color: limegreen;
+    font-family: monospace;
+    font-size: 14pt;
+    margin: 10pt;
+}
+.botao{
+    background-color: green;
+    border: none;
+    color: black;
+    padding: 12px 24px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 24pt;
+    cursor: pointer;
+    border-radius: 3px;
+}

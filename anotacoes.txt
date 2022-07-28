@@ -1,0 +1,22 @@
+aula 6
+window.prompt retorna string
+Number.parseInt() ou parseInt() converte para inteiro
+Number.parseFloat() converte para real
+Number() converte para número no melhor formato
+
+(number + number) + para adicäo
+(string + string) + para concatenacäo
+
+String(n) converte de número para string
+n.toString() mesma coisa
+
+`${nome} tem ${idade} anos e tirou nota ${nota}` concatenacäo com crases `` e placeholder ${}
+
+s.lenght tamanho da string
+s.toUpperCase() passa tudo para MAIÚSCULO
+s.toLowerCase() passa tudo para minúsculo
+
+n.toFixed(c) escreve o número n com c casas decimais
+n.toFixed(c).replace(".",",") determina quantas casas decimais e troca . por ,
+
+n.toLocaleString("pt-BR",{style:"currency",currency:"BRL"}) escreve o número no formato de reais
