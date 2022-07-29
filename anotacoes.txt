@@ -80,3 +80,31 @@ aritméticos -> relacionais -> logicos
 
 operador ternário
 teste?verdadeiro:falso
+
+aula 9
+
+DOM document object model
+árvore DOM estrura de classes POO 
+window - janela do navegador
+elementos:
+    location - url, página atual, página anterior
+    document - documento atual
+        html 
+            head 
+                meta 
+                title 
+            body 
+                h1
+                p 
+                    strong
+                div 
+    history - de onde veio, para onde vai
+    entre outros
+
+pode acessar os elementos por:
+marca - getElementsByTagName()[]
+id - getElementById()
+nome - getElementsByName()[]
+classe -  getElementsByClassName()[]
+seletor - querySelector()
+        querySelectorAll()
