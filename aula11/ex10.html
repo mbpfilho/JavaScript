@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../js.css">
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/png">
+    <title>aula 11 JS condicöes</title>
+</head>
+<body>
+    <h1>Sistema de multas</h1>
+    Velocidade do carro: <input type="number" name="txtvel" id="txtvel" style="width: 50px"> Km/h
+    <input type="button" class="botao" value="Verificar" onclick="calcular()">
+    <div id="res"></div>
+
+    <script>
+        function calcular(){
+            var vel=Number(document.querySelector("#txtvel").value)
+            document.querySelector("#res").innerHTML=`<p>A velocidade é <strong>${vel}</strong> Km/h</p>`
+            if(vel>60){
+            document.querySelector("#res").innerHTML+=`<p><strong>MULTADO</strong> por excesso de velicidade</p>`                
+            }
+            document.querySelector("#res").innerHTML+=`<p>Use sempre cinto de seguranca!</p>`
+        }
+    </script>
+</body>
+</html>

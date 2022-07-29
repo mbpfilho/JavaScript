@@ -129,3 +129,24 @@ funcäo ou funcionalidade
 function acäo(parâmetros){
     comandos
 }
+
+aula 11
+
+condicöes
+if(condicäo){
+    true
+}else{
+    false
+}
+
+condicäo simples
+if(condicao){
+    true
+}
+
+condicäo
+if(condicäo){
+    true
+}else{
+    false
+}
