@@ -108,3 +108,24 @@ nome - getElementsByName()[]
 classe -  getElementsByClassName()[]
 seletor - querySelector()
         querySelectorAll()
+
+aula 10
+
+eventos DOM
+
+eventos mouse:
+    mouseenter 
+    mousemove 
+    mousedown 
+    mouseup 
+    click 
+    mouseout 
+
+olhar lista com todos os eventos: https://developer.mozilla.org/pt-BR/docs/Web/Events
+
+{} = bloco 
+
+funcäo ou funcionalidade
+function acäo(parâmetros){
+    comandos
+}

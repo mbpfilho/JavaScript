@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../js.css">
+    <title>aula 10 JS somando números</title>
+    <style>
+        #area{
+            font: normal 20pt Arial;
+            background: green;
+            color: white;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>somando valores</h1>
+    <input type="number" name="txtn1" id="txtn1" style="width: 50px"> +
+    <input type="number" name="txtn2" id="txtn2" style="width: 50px">
+    <input type="button" value="Somar" class="botao" onclick="somar()">
+
+    <div id="res">Resultado</div>
+    <script>
+        function somar(){
+            document.querySelector("#res").innerHTML="A soma é <strong>"+(Number(document.querySelector("#txtn1").value)+Number(document.querySelector("#txtn2").value))+"</strong>"
+
+        }
+    </script>
+</body>
+</html>
