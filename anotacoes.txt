@@ -144,9 +144,36 @@ if(condicao){
     true
 }
 
-condicäo
+condicäo composta
 if(condicäo){
     true
 }else{
     false
+}
+
+aula 12
+
+condicöes aninhadas - condicäo dentro de condicäo 
+if(condicäo1){
+    bloco1
+}else if(condicäo2){
+    bloco2
+}else{
+    bloco3
+}
+
+condicäo múltipla
+switch(expressäo){
+    case valor1:
+
+    break
+    case valor2:
+
+    break
+    case valor3:
+
+    break
+    default:
+
+    break
 }
