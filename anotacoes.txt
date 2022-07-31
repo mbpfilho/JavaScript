@@ -193,3 +193,10 @@ estrutura de repeticäo com teste lógico no final
 do{
 
 }while(condicäo)
+
+aula 14
+
+estrutura de repeticäo com variável de controle
+for(inicio;teste;incremento){
+    bloco
+}
