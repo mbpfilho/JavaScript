@@ -177,3 +177,19 @@ switch(expressäo){
 
     break
 }
+
+aula 13
+
+repeticöes
+
+estrutura de repeticäo com teste lógico no início
+
+while(condicäo){
+    bloco
+}
+
+estrutura de repeticäo com teste lógico no final 
+
+do{
+
+}while(condicäo)
