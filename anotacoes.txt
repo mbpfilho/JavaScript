@@ -200,3 +200,21 @@ estrutura de repeticäo com variável de controle
 for(inicio;teste;incremento){
     bloco
 }
+
+aula 15
+
+variáveis compostas - array - vetor -> composto de elementos, índice(key) e conteúdo ou valor
+let num=[5,8,4] cria variável composta num com valores 5,8 e 4
+num[3]=6 acrescenta valor 6 na posicäo 3
+num.push(7) acrescenta valor 7 na primeira posicäo disponível
+num.length dá o comprimento, quantos elementos o vetor tem
+num.sort() coloca os elementos em ordem crescente
+
+for in: especial para vetores
+for(let indice in variavelvetor){
+    variavelvetor[indice]
+}
+
+variavelvetor.indexOf(valor) dá o índice do valor 
+se näo houver o valor, retorna -1
+
