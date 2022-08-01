@@ -218,3 +218,10 @@ for(let indice in variavelvetor){
 variavelvetor.indexOf(valor) dá o índice do valor 
 se näo houver o valor, retorna -1
 
+aula 16
+
+funcöes:
+chamada*
+parâmetro
+acäo*
+retorno
