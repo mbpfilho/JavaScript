@@ -225,3 +225,35 @@ chamada*
 parâmetro
 acäo*
 retorno
+
+aula 17
+
+estudar:
+
+funcöes:
+arrow functions
+call backs 
+funcöes anônimas
+IFEs
+JS funcional 
+
+objetos
+
+modularizacäo
+
+RegEx expressöes regulares
+
+JSON
+
+AJAX
+
+NodeJS
+
+jQuery
+
+View JS 
+
+Angular
+
+Objetos - introducäo
+let variavel={chave:valor,chave:valor,método(){}}
